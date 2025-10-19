@@ -17,7 +17,7 @@ const userData = {
   phoneNumber: "1234567890",
 };
 
-test.only("Test case 1", async ({ page }) => {
+test("Test Case 1: Register User", async ({ page }) => {
   await functionAE.accessPage(page, baseURL);
   functionAE.verifyPage(page, "Automation Exercise");
   functionAE.verifyActiveMenu(page, "Home");
@@ -56,4 +56,22 @@ test.only("Test case 1", async ({ page }) => {
   functionAE.verifyPage(page, "Automation Exercise - Account Created");
   await expect(page.getByText("Account Deleted!")).toBeVisible();
   await expect(page.locator(locatorAE.continueBtn)).toBeVisible();
+});
+test.only("Test Case 2: Login User with correct email and password", async ({
+  page,
+}) => {
+  await functionAE.accessPage(page, baseURL);
+  functionAE.verifyPage(page, "Automation Exercise");
+  functionAE.verifyActiveMenu(page, "Home");
+
+  await functionAE.createAccount(page, userData);
+  await functionAE.verifyLogged(page, ["Logout", "Delete Account"]);
+  await page.locator(locatorAE.menuBar).getByText("Logout").click();
+
+  await page.locator(locatorAE.loginEmail).fill(userData.email);
+  await page.locator(locatorAE.loginPassword).fill(userData.password);
+
+  await page.locator(locatorAE.loginBtn).click();
+  await functionAE.verifyLogged(page, ["Logout", "Delete Account"]);
+  await page.locator(locatorAE.menuBar).getByText("Logout").click();
 });

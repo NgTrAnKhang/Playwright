@@ -1,4 +1,7 @@
+//Menu
 export const menuBar = '.nav.navbar-nav';
+
+//Signup page
 export const signupName="input[placeholder='Name']";
 export const signupEmail="input[data-qa='signup-email']";
 export const signupBtn="button[data-qa='signup-button']";
@@ -15,3 +18,6 @@ export const signupZipCode="#zipcode";
 export const signupPhoneNumber="#mobile_number";
 export const createAccountBtn="button[data-qa='create-account']";
 export const continueBtn=".btn.btn-primary";
+export const loginEmail="input[data-qa='login-email']";
+export const loginPassword="input[placeholder='Password']";
+export const loginBtn="button[data-qa='login-button']";
