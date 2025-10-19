@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
    "scripts": {
-    "ui": "playwright test --ui"
+    "ui": "playwright test --ui",
+    "test":"playwright test"
   },
   "repository": {
     "type": "git",

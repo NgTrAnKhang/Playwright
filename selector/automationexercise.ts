@@ -1,0 +1,17 @@
+export const menuBar = '.nav.navbar-nav';
+export const signupName="input[placeholder='Name']";
+export const signupEmail="input[data-qa='signup-email']";
+export const signupBtn="button[data-qa='signup-button']";
+export const signupMr="label[for='id_gender1']";
+export const signupMrs="label[for='id_gender2']";
+export const signupPassword="#password";
+export const signupFirstName="#first_name";
+export const signupLastName="#last_name";
+export const signupAddress1="#address1";
+export const signupCountry="#country";
+export const signupState="#state";
+export const signupCity="#city";
+export const signupZipCode="#zipcode";
+export const signupPhoneNumber="#mobile_number";
+export const createAccountBtn="button[data-qa='create-account']";
+export const continueBtn=".btn.btn-primary";
