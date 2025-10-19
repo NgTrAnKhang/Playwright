@@ -2,6 +2,9 @@ import { test, expect } from "@playwright/test";
 import * as functionAE from "./function/automationexercise";
 import * as locatorAE from "../selector/automationexercise";
 
+//TEST CASE
+// URL: https://www.automationexercise.com/test_cases
+
 const baseURL = "https://www.automationexercise.com/";
 const userData = {
   name: "Khang Nguyen",
@@ -57,7 +60,7 @@ test("Test Case 1: Register User", async ({ page }) => {
   await expect(page.getByText("Account Deleted!")).toBeVisible();
   await expect(page.locator(locatorAE.continueBtn)).toBeVisible();
 });
-test.only("Test Case 2: Login User with correct email and password", async ({
+test("Test Case 2: Login User with correct email and password", async ({
   page,
 }) => {
   await functionAE.accessPage(page, baseURL);
