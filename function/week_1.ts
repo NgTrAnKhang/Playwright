@@ -3,8 +3,9 @@ import { selector } from '../selector/week_1';
 import fs from 'fs';
 import path from 'path';
 
+const baseURL="https://demoqa.com/";
 export async function login(page: Page, username: string, password: string) {
-  await page.goto('https://demoqa.com/login');
+  await page.goto(baseURL+'login');
   await page.fill(selector.login.username, username);
   await page.fill(selector.login.password, password);
   await page.click(selector.login.loginBtn);
@@ -12,7 +13,7 @@ export async function login(page: Page, username: string, password: string) {
 }
 
 export async function fillTextBox(page: Page, name: string, email: string, current: string, permanent: string) {
-  await page.goto('https://demoqa.com/text-box');
+  await page.goto(baseURL+'text-box');
   await page.fill(selector.textBox.fullName, name);
   await page.fill(selector.textBox.email, email);
   await page.fill(selector.textBox.currentAddress, current);
@@ -22,15 +23,18 @@ export async function fillTextBox(page: Page, name: string, email: string, curre
 }
 
 export async function dragAndDrop(page: Page) {
-  await page.goto('https://demoqa.com/droppable');
-  const drag = page.locator(selector.dragDrop.dragMe);
-  const drop = page.locator(selector.dragDrop.dropHere);
+  await page.goto(baseURL+'droppable');
+
+  const tabPanel = page.getByRole('tabpanel', { name: 'Simple' });
+  const drag = tabPanel.locator('#draggable');
+  const drop = tabPanel.locator('#droppable');
+
   await drag.dragTo(drop);
   await expect(drop).toContainText('Dropped!');
 }
 
 export async function selectMenu(page: Page) {
-  await page.goto('https://demoqa.com/select-menu');
+  await page.goto(baseURL+'select-menu');
   await page.selectOption(selector.selectMenu.oldSelectMenu, { value: '2' });
   const selected = await page.$eval(selector.selectMenu.oldSelectMenu, e => (e as HTMLSelectElement).value);
   expect(selected).toBe('2');
@@ -42,29 +46,30 @@ export async function selectMenu(page: Page) {
 }
 
 export async function handleAlertsAndFrames(page: Page) {
-  await page.goto('https://demoqa.com/alerts');
+  await page.goto(baseURL+'alerts');
   page.on('dialog', async (dialog) => await dialog.accept());
   await page.click(selector.alerts.alertButton);
 
-  await page.goto('https://demoqa.com/frames');
+  await page.goto(baseURL+'frames');
   const frame = await page.frame({ url: /sample/ });
   const textInside = await frame?.locator('#sampleHeading').textContent();
   expect(textInside).toContain('This is a sample page');
 }
 
 export async function checkboxAndRadio(page: Page) {
-  await page.goto('https://demoqa.com/checkbox');
+  await page.goto(baseURL+'checkbox');
   await page.click(selector.checkbox.expandAll);
   const checkboxes = await page.$$(selector.checkbox.checkboxItems);
-  for (const cb of checkboxes.slice(0, 2)) await cb.click(); // select first 2
+  for (const cb of checkboxes.slice(0, 2)) {
+    await cb.click();
+  }
 
-  await page.goto('https://demoqa.com/radio-button');
-  await page.click(selector.radio.yesRadio);
-  await expect(page.locator(selector.radio.output)).toContainText('Yes');
+  await page.goto(baseURL+'radio-button');
+  await page.locator('label[for="yesRadio"]').click();
+  await expect(page.locator(selector.radio.output)).toHaveText('Yes');
 }
-
 export async function uploadAndDownload(page: Page) {
-  await page.goto('https://demoqa.com/upload-download');
+  await page.goto(baseURL+'upload-download');
   const filePath = path.resolve(__dirname, 'test.txt');
   fs.writeFileSync(filePath, 'Test upload file');
 
