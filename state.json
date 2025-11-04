@@ -1,0 +1,152 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.1.509585548.1762284738",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1796844740.141756,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__gads",
+      "value": "ID=384c06948386b109:T=1762284738:RT=1762284738:S=ALNI_MaXKimPldZLQ6Kb4i4MhJIYXzwvIw",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1795980738,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gpi",
+      "value": "UID=000011adef7a1cff:T=1762284738:RT=1762284738:S=ALNI_MYXUa7QgSPYLH_fCq49CRDbJBNTxQ",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1795980738,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__eoi",
+      "value": "ID=0cf922645b1faca4:T=1762284738:RT=1762284738:S=AA-AfjbBwEk96I5oQS54qm8l_uOn",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1777836738,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "FCCDCF",
+      "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%220f15fce7-da64-45c5-b684-0f9651d01c66%5C%22%2C%5B1762284738%2C762000000%5D%5D%22%5D%5D%5D",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1795980738,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUk5WDkQemSIX01U5g8xHGWhE9GsWnYNT20cySQBn6Y0ytBzSB2xD5K2Ynqeug0",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1796844738.875556,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "io",
+      "value": "mCXCP9bR37EzmVmTARrJ",
+      "domain": "practice.expandtesting.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ar_debug",
+      "value": "1",
+      "domain": ".www.google-analytics.com",
+      "path": "/",
+      "expires": 1770060739.532391,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "FCNEC",
+      "value": "%5B%5B%22AKsRol-y5VtVSbKxbJeAISfUWnAuwX6n4Gk6HhoqBt6zfpaXh_HbGmRpTrBjk0qi2wCl_wQRghsYMgZHFmnD9SmqlFpXJYTtqj3f6uXZJ5o4JGACGYMC1ap9OhO3vV8KvXzA2111mXspf6HCV4jX6ULP2y2UiZKJ5g%3D%3D%22%5D%5D",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1793820739,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "express:sess",
+      "value": "eyJmbGFzaCI6e30sInVzZXJuYW1lIjoicHJhY3RpY2UifQ==",
+      "domain": "practice.expandtesting.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "express:sess.sig",
+      "value": "MhPNo1zptUJNE-6KAjcQQu4cQaw",
+      "domain": "practice.expandtesting.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_90GRT6N40B",
+      "value": "GS2.1.s1762284738$o1$g1$t1762284740$j58$l0$h0",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1796844740.145044,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://practice.expandtesting.com",
+      "localStorage": [
+        {
+          "name": "google_adsense_settings",
+          "value": "{\"ca-pub-1056034821646296\":[\"ca-pub-1056034821646296\",[[1]]]}"
+        },
+        {
+          "name": "google_ama_config",
+          "value": "[[[[null,10,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY>FOOTER.footer.mt-auto.bg-light>DIV.container>DIV.copyright.bg-footer>DIV.border-top\"],4,[\"10px\",\"10px\",1],[5],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"H2#community-example\"],1,[\"10px\",\"16px\",1],[3],null,[],[],1,[],[5]],[[null,0,null,[],null,null,\"SECTION#tools>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY\"],3,[\"10px\",\"10px\",1],[5],null,[],[],1,[],[]],[[null,1,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#apps>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,3,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,8,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY>FOOTER.footer.mt-auto.bg-light\"],1,[\"10px\",\"10px\",1],[0],null,[],[],1,[],[2,4]],[[null,3,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV>P\"],1,[\"10px\",\"16px\",1],[3],null,[],[],1,[],[5]],[[null,6,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#examples\"],4,[\"10px\",\"10px\",1],[1],null,[],[],1,[],[]],[[null,15,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#reports>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,2,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,12,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#assertions>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#api>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,7,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,9,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV.ad-bar\"],4,[\"10px\",\"10px\",1],[4],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,11,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY\"],2,[\"10px\",\"10px\",1],[4],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"H4\"],1,[\"10px\",\"10px\",1],[5],null,[],[],1,[],[]],[[null,5,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV>P\"],1,[\"10px\",\"16px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV.page-layout>DIV.row>DIV\"],4,[\"16px\",\"10px\",1],[3],null,[],[],1,[],[5]],[[null,0,null,[],null,null,\"DIV#support-coffee\"],4,[\"10px\",\"10px\",1],[2],null,[],[],1,[],[]],[[null,1,null,[],null,null,\"SECTION#apps>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,14,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,1,null,[],null,null,\"SECTION#assertions>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,4,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,13,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,5,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV#contentbody\"],1,[\"10px\",\"10px\",1],[2],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#examples\"],1,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV.ad-bar>P.text-center.ad-bar-text\"],1,[\"10px\",\"10px\",1],[4],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV.ad-bar\"],3,[\"10px\",\"10px\",1],[4],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY>MAIN>DIV.container-fluid\"],1,[\"4px\",\"10px\",1],[2],null,[],[],1,[],[]],[[null,2,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV\"],4,[\"16px\",\"10px\",1],[1],null,[],[],1,[],[]]],[],[1762371138433],\"20251102_093651\",[],[[[[null,0,null,[],null,null,\"SECTION#tools>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,0,null,[],null,null,\"SECTION#reports>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,2,null,[],null,null,\"SECTION#examples>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,3,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV\"],[null,null,null,[],null,null,\"P\"],null,[null,null,null,[],null,null,\"H2,H3,P\"]],[[null,1,null,[],null,null,\"SECTION#examples>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,0,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV>OL\"],[null,null,null,[],null,null,\"LI\"],null,[null,null,null,[],null,null,\"LI\"]],[[null,2,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV\"],[null,null,null,[],null,null,\"P\"],null,[null,null,null,[],null,null,\"H3,IMG.img-fluid,LI,P\"]],[[null,3,null,[],null,null,\"SECTION#examples>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,null,null,[],null,null,\"DIV.page-layout>DIV.row>DIV\"],[null,null,null,[],null,null,\"P\"],null,[null,null,null,[],null,null,\"H2,H3,LI,P\"]],[[null,null,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV\"],[null,null,null,[],null,null,\"P\"],null,[null,null,null,[],null,null,\"H2,H3,LI,P\"]],[[null,0,null,[],null,null,\"DIV.page-layout>DIV.row>DIV>OL\"],[null,null,null,[],null,null,\"LI\"],null,[null,null,null,[],null,null,\"LI\"]],[[null,0,null,[],null,null,\"SECTION#examples>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,1,null,[],null,null,\"SECTION#reports>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,null,null,[],null,null,\"SECTION#examples\"],[null,null,null,[],null,null,\"H2\"],null,[null,null,null,[],null,null,\"H2,H3.card-title.expand-card-title,P.card-text\"]],[[null,2,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV\"],[null,null,null,[]]],[[null,1,null,[],null,null,\"SECTION#tools>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]]]],[[null,[1,3,2],null,\"2533588893\",[],[],[0,2],null,null,[0.74000001,null,2,7,530,1],[]]],[null,[[1,\"1vp\",[[4,\"2vp\",\"2vp\"],[6,\"3vp\",\"3vp\"]],8,\"1vp\",0.30000001,[\"0.2vp\",\"0vp\",2]],[2,\"300px\",[[4,\"600px\",\"600px\"],[6,\"900px\",\"900px\"]],8,\"300px\",0.30000001,[\"60px\",\"0px\",2]]]],null,null,null,null,null,null,[null,null,null,null,null,null,null,null,null,null,null,0],null,null,[1,null,null,[]],null,[380557208],null,null,[1762211814052],null,null,null,null,null,null,null,null,null,[[\"Toggle toolbar expansion\",\"Toggle privacy and legal settings display\",\"Dismiss privacy and legal settings display\"]]]"
+        },
+        {
+          "name": "google_ama_settings",
+          "value": "[1762371138535,1]"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::h",
+          "value": "1762284739761"
+        }
+      ]
+    }
+  ]
+}
