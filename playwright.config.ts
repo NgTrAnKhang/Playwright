@@ -10,9 +10,6 @@ export default defineConfig({
     baseURL: "https://example.com",
     storageState: "state.json",
     headless: true,
-    connectOptions: {
-      wsEndpoint: "ws://your-grid-server:4444/playwright",
-    },
   },
 
   projects: [
