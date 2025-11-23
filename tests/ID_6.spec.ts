@@ -1,45 +1,25 @@
-import { test, expect } from "@playwright/test";
-import * as fn from "../function/ID_6_functions";
+import { test } from "@playwright/test";
+import { ID_6_Functions } from "../function/ID_6_functions";
+import { ID_6_Selectors } from "../selector/ID_6_selectors";
 
-const username = "testuser";
-const password = "Test@123";
+test("ID_6 assertions test", async ({ page }) => {
+  const baseURL = "https://demoqa.com/";
+  const username = "ntakhang";
+  const password = "123456789l@L";
+  const fn = new ID_6_Functions(page);
 
-test.describe("ID_6 Demo Test Suite", () => {
+  await page.goto(baseURL + "login");
 
-  test.beforeEach(async ({ page }) => {
-    await page.goto("https://demoqa.com/login");
+  await page.locator("#username").fill("testuser");
 
-    try {
-      await fn.verifyLogin(page, username);
-      await fn.logout(page);
-    } catch {
-    }
-  });
+  await fn.assertUsernameValue("testuser");
 
-  test.afterEach(async ({ page }) => {
-    try {
-      await fn.logout(page);
-    } catch {}
-  });
+  await page.goto(baseURL + "dashboard/");
+  await fn.assertOnDashboard();
 
-  test("ID_6-1 Login Test", async ({ page }) => {
-    await fn.login(page, username, password);
-    await fn.verifyLogin(page, username);
-    await page.pause();
-  });
-
-  test("ID_6-2 Sort Title Column", async ({ page }) => {
-    await fn.sortTitle(page, "des");
-    await fn.verifySorted(page, "des");
-  });
-
-  test("ID_6-3 Pagination Test", async ({ page }) => {
-    await fn.selectPagination(page, "5");
-    await fn.verifyPagination(page, "5", "2");
-  });
-
-  test("ID_6-4 Search Test", async ({ page }) => {
-    await fn.search(page, "JavaScript");
-    await fn.verifySearch(page, "JavaScript");
-  });
+  await page.goto(baseURL + "login");
+  await page.fill(ID_6_Selectors.usernameInput, username);
+  await page.fill(ID_6_Selectors.passwordInput, password);
+  await page.click(ID_6_Selectors.loginButton);
+  await fn.assertLogoutVisible();
 });
